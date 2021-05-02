@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Mae's Continental Cuisine</title>
+<!-- TemplateEndEditable -->
+<link href="../css/project.css" rel="stylesheet" type="text/css">
+<link href="../contact_me.js.css" rel="stylesheet" type="text/css">
+<meta name="description-Caribbean restaurant" content="Mae's Continental Cuisine-add description here">
+<!-- TemplateParam name="MainCarousel" type="boolean" value="true" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<header>
+		<img src="../images/Mae'slogo.jpg" alt="logo">
+	</header><br> <br> <br>
+	<nav>
+        <a href="../index.html">Home</a> &nbsp;
+        <a href="../Gallery.html">Gallery</a> &nbsp;
+        <a href="../Menu.html">Menu</a> &nbsp;
+        <a href="../Reservations.html">Reservations</a> &nbsp;
+		<a href="../Order.html">Order</a> &nbsp;
+    </nav><br><br>
+	
+<!-- TemplateBeginIf cond="_document['MainCarousel']" -->
+	<div class="slideshow-container">
+	  <div class="mySlides fade">
+	    <div class="numbertext">1 / 6</div>
+	    <img src="../images/Neat-carousel.jpg" alt="picture 1" style="width:100%">
+	    <div class="text">Heavenly</div>
+      </div>
+	  <div class="mySlides fade">
+	    <div class="numbertext">2 / 6</div>
+	    <img src="../images/delicious-carousel.jpg" alt="picture 2" style="width:100%">
+	    <div class="text">Special Delicacy</div>
+      </div>
+	  <div class="mySlides fade">
+	    <div class="numbertext">3 / 6</div>
+	    <img src="../varieties-carousel.jpg" alt="picute 3" style="width:100%">
+	    <div class="text">Varieties of dishes</div>
+      </div>
+	  <div class="mySlides fade">
+	    <div class="numbertext">3 / 6</div>
+	    <img src="../images/beauty.jpg" alt="picute 3" style="width:100%">
+	    <div class="text">Varieties of dishes</div>
+      </div>
+	  <div class="mySlides fade">
+	    <div class="numbertext">3 / 6</div>
+	    <img src="../images/jamaican-food.jpg" alt="picute 3" style="width:100%">
+	    <div class="text">Varieties of dishes</div>
+      </div>
+	  <div class="mySlides fade">
+	    <div class="numbertext">3 / 6</div>
+	    <img src="../images/best-caribbean.jpg" alt="picute 3" style="width:100%">
+	    <div class="text">Varieties of dishes</div>
+      </div>
+	  <a class="prev" onClick="plusSlides(-1)">&#10094;</a> <a class="next" onClick="plusSlides(1)">&#10095;</a> </div>
+<!-- TemplateEndIf --><br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div><br> <br> <br>
+		
+<!-- TemplateBeginEditable name="contacts" -->
+<div class="Contacts" style="align=center">
+  <address class="info">
+    <strong>Contact Us&nbsp;</strong><br>
+    <strong>Mae's Continental Cuisine</strong><br>
+    Stafford Marketplace<br>
+    Stafford, VA 22554-1500<br>
+  <abbr title="Phone">Telephone-Number:</abbr> (540) 555-5555
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3123.7540755920195!2d-77.41177588530451!3d38.47023847961548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6efd9811239bb%3A0xb6c08ddb494d5b54!2sStafford%20Market%20Pl%2C%20Garrisonville%2C%20VA!5e0!3m2!1sen!2sus!4v1616548073916!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </address>
+</div><br> <br> <br>
+<!-- TemplateEndEditable -->
+<div class="col-md-4" align="center">
+  <h3>Opening Hours</h3>
+      <div class="contact-item">
+        <p>Mondays: 11:00 AM - 10:00 PM</p>
+		<p>Tuesdays:11:00 AM - 10:00 PM</p>
+		  <p>Wednesdays: 11:00 AM - 10:00 PM</p>
+		  <p>Thursdays: 11:00 AM - 10:00 PM</p>
+		  <p>Fridays: 11:00 AM - 10:00 PM</p>
+        <p>Saturdays: 10:00 AM - 12:00 AM</p>
+	    <p>Sundays: 11:00 AM - 10:00 PM</p>
+      </div>
+    </div><br> <br> <br>
+  <div class="container" align="center">
+    <div class="section-title text-center">
+      <h3>Send us a message</h3>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+      </form>
+    </div>
+  </div><br> <br> <br><br> <br> <br><br> <br> <br>
+	
+	<footer>
+<div class="copyright" align="center"> &copy; 2021 Mae's Continental Cuisine. All rights reserved<br>
+        <a href="mailto:Maes@Deliciousmeals.us">Maes@Deliciousmeals.us</a>
+	</div>
+	<script src="../js/project-script.js"></script>
+</footer>
+</body>
+</html>
